@@ -1,0 +1,33 @@
+.ExpertiseCard{
+    display: flex;
+    padding: 0rem 2rem;
+}
+.Expertise h2{
+ font-size: 2rem;
+ font-weight: 700;
+
+}
+.Expertise{
+    padding: 2rem 1rem;
+}
+.Expertise1 p{
+    font-size: 1rem;
+    width: 50%;
+    text-align: center;
+    color: var(--accent-color);
+    margin-bottom: 2rem;
+} 
+.Expertise1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+@media all and (max-width:700px),all and (max-height:500px) {
+    .ExpertiseCard{
+        flex-direction: column;
+    }
+    .Expertise h2{
+        text-align: center;
+    }
+}

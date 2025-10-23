@@ -1,0 +1,30 @@
+.Footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-top: 0.05rem solid var(--primary-color-300);
+    color: var(--accent-color);
+}
+.Footer ul{
+    display: flex;
+    /* gap: 1rem; */
+}
+.Footer ul li a{
+    padding: 1rem 1rem;
+}
+.Footer ul li a:hover{
+    color: white;
+    background-color: var(--primary-color-100);
+}
+@media all and (max-width:700px),all and (max-height:500px) {
+    .Footer ul{
+        flex-direction: column;
+        width: 50%;
+    }
+    .Footer{
+        padding: 0 0.6rem;
+    }
+    .Footer ul li a{
+        padding: 0 0.2rem;
+    }
+}

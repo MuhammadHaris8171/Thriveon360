@@ -1,0 +1,52 @@
+.Contact1 h2{
+font-size: 2rem;
+font-weight: 600;
+}
+.Contact1 p{
+    color: var(--accent-color);
+}
+.Contact1 input{
+    border: 2px solid var(--primary-color-300);
+    padding: 0.7rem 0.7rem;
+}
+.Contact1 textarea{
+      border: 2px solid var(--primary-color-300);
+    padding: 0.7rem 0.7rem;
+}
+.Contact1{
+    width: 45%;
+}
+.Contact{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem 2rem;
+}
+.Contact2 ul li{
+    display: flex;
+align-items: center;
+margin-bottom: 1rem;
+}
+.Contact2 ul li h4{
+    font-weight: 600;
+    margin-left: 1rem;
+}
+.Contact2 ul li h4 p{
+    font-weight: normal;
+    color: var(--accent-color);
+}
+.Contact_icon{
+    background-color: var(--primary-color-300);
+    border-radius: 50%;
+    padding: 1rem;
+}
+.Contact2 h3{
+    font-weight: 700;
+}
+@media all and (max-width:700px) {
+    .Contact{
+        flex-direction: column;
+    }
+    .Contact1{
+        width: 85%;
+    }
+}

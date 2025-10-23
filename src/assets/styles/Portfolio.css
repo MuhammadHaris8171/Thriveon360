@@ -1,0 +1,47 @@
+.HealthCard{
+    display: flex;
+    gap: 2rem;
+    /* padding: 1rem 1rem; */
+}
+.ClientCard{
+    display: flex;
+    gap: 2rem;
+}
+.ClientHeading{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.PortfolioHeading{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.Portfolio{
+    padding: 1rem 1.5rem;
+}
+.Portfolio1 h1{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.Portfolio1 p{
+    font-size: 1rem;
+    width: 50%;
+    text-align: center;
+    color: var(--accent-color);
+}
+.Portfolio1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media all and (max-width:700px) {
+    .HealthCard{
+    flex-direction: column;
+    gap: 0rem;
+}
+.ClientCard{
+    flex-direction: column;
+    gap: 0rem;
+}
+}
