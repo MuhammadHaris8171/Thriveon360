@@ -1,4 +1,4 @@
-import { faMobileScreen } from "@fortawesome/free-solid-svg-icons";
+import { faMobileScreen, faLayerGroup, faUserGroup, faBolt, faHeart } from "@fortawesome/free-solid-svg-icons";
 import { faUikit, faWebflow } from "@fortawesome/free-brands-svg-icons";
 import Vitality from '../assets/images/Vitality1.jpg'
 import Mindful from '../assets/images/Mindful.jpg'
@@ -29,25 +29,25 @@ const services = [
   ];
 const cores = [
     {
-      icon: faWebflow,
+      icon: faLayerGroup,
       heading: "Integrity",
       paragraph:
         "We uphold the highest standards of integrity in all of our actions",
     },
     {
-      icon: faMobileScreen,
+      icon: faUserGroup,
       heading: "Customer Commitment",
       paragraph:
         "We develop relationships that make a positive difference in our customers' lives",
     },
     {
-      icon: faUikit,
+      icon: faBolt,
       heading: "Innovation",
       paragraph:
         "We pioneer new technologies and solutions that drive progress for our clients",
     },
     {
-      icon: faUikit,
+      icon: faHeart,
       heading: "passion",
       paragraph:
         "We are passionate about what we do, and we're committed to helping our customers thrive",
