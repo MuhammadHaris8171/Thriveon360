@@ -27,6 +27,32 @@ const services = [
         "Creating visually stunning and user-friendly interfaces that enhance user engagement and satisfaction.",
     },
   ];
+const cores = [
+    {
+      icon: faWebflow,
+      heading: "Integrity",
+      paragraph:
+        "We uphold the highest standards of integrity in all of our actions",
+    },
+    {
+      icon: faMobileScreen,
+      heading: "Customer Commitment",
+      paragraph:
+        "We develop relationships that make a positive difference in our customers' lives",
+    },
+    {
+      icon: faUikit,
+      heading: "Innovation",
+      paragraph:
+        "We pioneer new technologies and solutions that drive progress for our clients",
+    },
+    {
+      icon: faUikit,
+      heading: "passion",
+      paragraph:
+        "We are passionate about what we do, and we're committed to helping our customers thrive",
+    },
+  ];
 // src/data/portfolioData.js
 
 export const healthWellnessProducts = [
@@ -99,4 +125,4 @@ export const servicesData = [
   },
 ]
 
-export {services}
+export {services,cores}

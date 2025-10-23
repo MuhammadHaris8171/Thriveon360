@@ -1,0 +1,54 @@
+.meet h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.meet2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.meet2 img{
+    width: 10rem;
+    border-radius: 50%;
+    height: 9rem;
+    border: 2px solid var(--primary-color-100);
+}
+.meet22{
+    width: 50%;
+}
+.meet22 h3{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.meet22 sup{
+    color: var(--primary-color-100);
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+.meet22 p{
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+}
+.meet22 a{
+    color: var(--primary-color-100);
+    padding: 0.5rem 1rem;
+}
+.meet22 a:hover{
+    background-color: var(--primary-color-100);
+    color: white;
+}
+.meet{
+    padding: 4rem 1rem;
+}
+@media all and (max-width:700px),all and (max-height:500px) {
+    .meet2{
+        flex-direction: column;
+    }
+    .meet22{
+        width: 70%;
+        text-align: center;
+    }
+}

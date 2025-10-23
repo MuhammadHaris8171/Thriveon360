@@ -1,0 +1,23 @@
+.coreHeading{
+font-size: 1.5rem;
+font-weight: 700;
+text-align: center;
+}
+.coreParagraph{
+    color: var(--accent-color);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.ExpertiseCard{
+    display: flex;
+    justify-content: center;
+}
+.core{
+    margin-bottom: 2rem;
+}
+@media all and (max-width:700px),all and (max-height:500px) {
+    .ExpertiseCard{
+        justify-content: center;
+        align-items: center;
+    }
+}
