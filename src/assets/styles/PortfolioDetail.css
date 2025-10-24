@@ -1,0 +1,225 @@
+/* === Portfolio Detail Page === */
+
+/* --- Container --- */
+.PortfolioDetail {
+  max-width: 100vw;
+  margin: 0 auto;
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+/* --- Header --- */
+.PortfolioDetail-header {
+  margin-bottom: 2rem;
+}
+
+.PortfolioDetail-header a {
+  display: inline-block;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--primary-color-100);
+  transition: color 0.3s ease;
+}
+
+.PortfolioDetail-header a:hover {
+  color: var(--primary-color-200);
+}
+
+.PortfolioDetail-header h1 {
+  font-size: 2.5rem;
+  margin: 0 0 0.5rem;
+}
+
+.PortfolioDetail-header p {
+  font-size: 1.15rem;
+  /* color: ; */
+  margin: 0;
+}
+
+/* --- Main Image Slider --- */
+.PortfolioDetail-slider {
+  margin-bottom: 2.5rem;
+  width: 60vw;
+  object-fit: cover;
+  max-height: 70vh;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.PortfolioDetail-slider img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* --- Video Support for Slider --- */
+.slider-video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 59.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.slider-video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.PortfolioDetail-slider.main-slider img {
+  height: auto;
+  min-height: 400px; /* Prevents small images on desktop */
+}
+
+/* --- Thumbnail Slider --- */
+.PortfolioDetail-slider.thumb-slider {
+  margin: 1rem 0 2rem;
+  border: none;
+  padding: 0 10px;
+}
+
+.thumb-container {
+  position: relative;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.thumbnail-image {
+  width: 100%;
+  height: 100px !important;
+  object-fit: cover;
+  border-radius: 4px;
+  opacity: 0.6;
+  transition: opacity 0.2s, border 0.2s;
+}
+
+.slick-slide.slick-current .thumbnail-image {
+  opacity: 1;
+}
+
+/* --- Play Icon Overlay (For Video Thumbnails) --- */
+.video-play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  color: white;
+  line-height: 1;
+  padding: 0.1rem 0.5rem 0.1rem 0.65rem;
+  pointer-events: none; /* Clicks pass through */
+}
+
+/* --- Content Layout --- */
+.PortfolioDetail-content-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2.5rem;
+}
+
+/* --- Main Section --- */
+.PortfolioDetail-main h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.PortfolioDetail-main p {
+  color: var(--accent-color);
+  margin-bottom: 1rem;
+}
+.PortfolioDetail-main p strong{
+  color: black;
+}
+/* --- Sidebar --- */
+.ProjectInfo-box {
+  background: #f9f9f9;
+  border: 1px solid #e9e9e9;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.ProjectInfo-box h3 {
+  margin: 0 0 1.5rem;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.ProjectInfo-box p {
+  margin-bottom: 1rem;
+}
+
+
+.ProjectInfo-box p span {
+  color: var(--accent-color);
+}
+.ProjectInfo-box p strong {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+  color: black;
+}
+
+/* --- Technologies Tags --- */
+.Technologies-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.Tech-tag {
+  background: #e7e7e7;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0.3rem 0.75rem;
+  border-radius: 14px;
+}
+
+/* --- Not Found Section --- */
+.PortfolioDetail-not-found {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.PortfolioDetail-not-found h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* --- Responsive --- */
+@media (max-width: 700px) {
+  .PortfolioDetail {
+    padding: 1rem;
+  }
+
+  .PortfolioDetail-header h1 {
+    font-size: 2rem;
+  }
+
+  .PortfolioDetail-slider.main-slider {
+    width: 85vw;
+  }
+
+  .PortfolioDetail-slider.main-slider img {
+    height: 30vh;
+  }
+
+  .thumbnail-image {
+    height: 8vh !important;
+  }
+
+  .PortfolioDetail-content-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .PortfolioDetail-sidebar {
+    margin-top: 1rem;
+  }
+}

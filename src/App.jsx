@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import PortfolioDetail from "./pages/PortfolioDetail";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/products" element={<Products />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/portfolio/:projectId" element={<PortfolioDetail />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

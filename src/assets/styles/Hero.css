@@ -11,13 +11,10 @@ margin-bottom: 1rem;
 .Hero{
     display: flex;
     height: 90vh;
+    background-position: center;
+    background-size: cover;
     /* border: 2px solid blue; */
-    background: linear-gradient(
-        180deg,
-        rgb(202, 199, 199),
-        rgb(166, 165, 165),
-        rgb(93, 92, 92)
-    );
+    background-image:url('../images/Portfolio.jpg') ;
     /* flex-direction: column; */
     justify-content:center ;
     align-items: center;

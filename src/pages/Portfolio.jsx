@@ -1,7 +1,7 @@
 import React from 'react'
 import CardPortfolio from '../components/CardPortfolio'
 import '../assets/styles/Portfolio.css'
-import { healthWellnessProducts, clientProjects } from '../utils/data'
+import { healthWellnessProducts } from '../utils/data'
 
 function Portfolio() {
   return (
@@ -15,7 +15,7 @@ function Portfolio() {
         </p>
       </div>
 
-      <h2 className='PortfolioHeading'>Health & Wellness Products</h2>
+      <h2 className='PortfolioHeading'>Portfolio</h2>
       <div className="HealthCard">
         {healthWellnessProducts.map((item, index) => (
           <CardPortfolio
@@ -23,6 +23,7 @@ function Portfolio() {
             image={item.image}
             heading={item.heading}
             paragraph={item.paragraph}
+            link={`/portfolio${item.link}`}
           />
         ))}
       </div>
