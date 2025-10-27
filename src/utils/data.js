@@ -106,7 +106,7 @@ export const healthWellnessProductsDetails = [
     paragraph: 'Polished cross‑platform app empowering parents to monitor and manage child development.',
     
     // --- Detail Page Data ---
-    subtitle: 'A cross-platform app for parents to monitor, manage, and support multiple children—featuring daily and weekly developmental tracking—backed by a powerful admin dashboard.',
+    subtitle: 'A cross-platform app for parents to monitor, manage, and support multiple children—featuring daily and weekly developmental tracking backed by a powerful admin dashboard.',
     
     galleryImages: [ 
       // 1. Main image
@@ -125,14 +125,14 @@ export const healthWellnessProductsDetails = [
     
     overview: 'Cocoon is a polished cross-platform mobile application developed using Flutter, GetX, and the MVVM architecture. It empowers parents to monitor, manage, and support the development of multiple children through daily and weekly developmental tracking, all synchronized with a powerful real-time admin dashboard.',
     
-    challenges: 'Developing a cohesive parent experience to manage multiple child profiles with diverse needs (diet, sleep, milestones) and providing high-quality, personalized developmental content. \n\n**Parent App Features:** \n* Multi-child support (tracking diet, diaper, sleep, milestones). \n* Curated daily & weekly activity suggestions. \n* Insightful analytics and progress charts. \n* Expert guidance via articles, video classes, and consultation scheduling. \n* Monetization via seamless in-app purchases.',
+    challenges: 'Developing a cohesive parent experience to manage multiple child profiles with diverse needs (diet, sleep, milestones) and providing high-quality, personalized developmental content. \n\nParent App Features:\n Multi-child support (tracking diet, diaper, sleep, milestones). \n Curated daily & weekly activity suggestions. \n Insightful analytics and progress charts. \n Expert guidance via articles, video classes, and consultation scheduling. \n Monetization via seamless in-app purchases.',
     
-    solution: 'We implemented a robust Admin Web Panel to provide real-time control over all application content and user data, reducing the need for app updates to deploy new content.\n\n**Admin Web Panel Features:** \n* User & profile management (approve, edit, remove accounts). \n* Analytics & reporting (view, filter, export user engagement statistics). \n* Content control hub (real-time management of activities, articles, classes, and videos).',
+    solution: 'We implemented a robust Admin Web Panel to provide real-time control over all application content and user data, reducing the need for app updates to deploy new content.\n\nAdmin Web Panel Features: \n User & profile management (approve, edit, remove accounts). \n Analytics & reporting (view, filter, export user engagement statistics). \n Content control hub (real-time management of activities, articles, classes, and videos).',
     
     results: 'The application successfully launched to a positive user base. It established a platform for scalable content delivery and efficient user management, demonstrating high performance across iOS and Android platforms.',
     
     projectInfo: {
-      client: 'Your Client Name (or Internal Project)',
+      client: 'John Doe',
       category: 'Mobile App Development, Child Wellness',
       technologies: ['Flutter', 'GetX', 'MVVM']
     }
