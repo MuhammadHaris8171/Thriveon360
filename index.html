@@ -1,33 +1,13 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>thriveon360 — loading...</title>
-    <!-- <base href="/" /> -->
-    </head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>thriveon360</title>
+    <base href="/" />
+  </head>
   <body>
-    <script>
-      // Try to fetch the SPA entry (index.html). If found, replace the document with it.
-      (function () {
-        const indexUrl = '/index.html';
-        fetch(indexUrl, { cache: 'no-store' })
-          .then(res => {
-            if (res.ok) return res.text();
-            throw new Error('index not found');
-          })
-          .then(html => {
-            // Replace current document with the app's index.html, preserving path
-            document.open();
-            document.write(html);
-            document.close();
-            // Optionally bootstrap the app with the current URL preserved (React Router will handle it)
-          })
-          .catch(() => {
-            // fallback: redirect to root
-            location.replace('/');
-          });
-      })();
-    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
